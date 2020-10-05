@@ -14,6 +14,7 @@ public class ResidentDAO implements DAO<Resident> {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
 
 	public Resident update(Resident t) {
 		// TODO Auto-generated method stub
