@@ -1,14 +1,19 @@
 package com.revature.dao;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
 import com.revature.interfaces.DAO;
 import com.revature.models.Resident;
+import com.revature.services.ConnectionService;
 
 public class ResidentDAO implements DAO<Resident> {
 	PreparedStatement ps;
 	ResultSet rs;
 	Connection connection;
 	
-	public residentDAO() { //constructor
+	public void residentDAO() { //constructor
 		connection = ConnectionService.getConnection();
 	}
 	
