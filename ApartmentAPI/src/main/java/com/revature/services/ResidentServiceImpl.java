@@ -1,5 +1,5 @@
 package com.revature.services;
 
-public class ApartmentService {
+public class ResidentServiceImpl {
 
 }
