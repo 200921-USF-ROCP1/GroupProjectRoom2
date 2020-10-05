@@ -1,5 +1,7 @@
 package com.revature.services;
 
-public class ResidentServiceImpl {
+import com.revature.interfaces.ResidentService;
 
+public class ResidentServiceImpl implements ResidentService{
+	
 }
