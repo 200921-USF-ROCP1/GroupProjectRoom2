@@ -15,10 +15,6 @@ public class ResidentDAO implements DAO<Resident> {
 		return null;
 	}
 	
-	public double getAllRent() {
-		return (Double) null;
-		
-	}
 
 	public Resident update(Resident t) {
 		// TODO Auto-generated method stub
