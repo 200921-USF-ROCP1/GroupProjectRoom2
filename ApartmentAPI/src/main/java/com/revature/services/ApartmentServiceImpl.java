@@ -5,7 +5,6 @@ import java.util.Scanner;
 import com.revature.app.App;
 import com.revature.dao.ApartmentDAO;
 import com.revature.interfaces.ApartmentService;
-import com.revature.interfaces.DAO;
 
 public class ApartmentServiceImpl implements ApartmentService{
 	private Scanner sc = App.sc;
