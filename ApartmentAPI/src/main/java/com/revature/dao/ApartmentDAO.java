@@ -20,12 +20,15 @@ public class ApartmentDAO implements DAO<Apartment>{
 	
 	public void create(Apartment t) throws SQLException {
 		ps = connection.prepareStatement("insert into apartments(building_letter,room_number,monthly_rent) values (?,?,?)");
-		ps.setNString(1, t.getbuildingLetter());
+		ps.setString(1, t.getbuildingLetter());
+		ps.setInt(2, t.getroomNumber());
+		ps.setDouble(3, t.getMonthlyRent());
+		
+		ps.execute();
 		
 	}
 
 	public Apartment retrieve(int id) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 	public void getVacantApatments() {
