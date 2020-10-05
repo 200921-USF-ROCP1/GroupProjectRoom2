@@ -14,6 +14,13 @@ public class ApartmentDAO implements DAO<Apartment>{
 		// TODO Auto-generated method stub
 		return null;
 	}
+	public void getVacantApatments() {
+		
+	}
+	
+	public void getApatmentsWithPets() {
+		
+	}
 
 	public Apartment update(Apartment t) {
 		// TODO Auto-generated method stub

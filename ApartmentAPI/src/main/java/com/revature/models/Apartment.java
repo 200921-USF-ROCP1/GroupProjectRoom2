@@ -34,3 +34,4 @@ public class Apartment {
 		this.monthlyRent = monthlyRent;
 	}
 }
+
