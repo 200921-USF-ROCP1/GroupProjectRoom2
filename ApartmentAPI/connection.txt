@@ -1,3 +1,0 @@
-url=jdbc:postgresql://lallah.db.elephantsql.com:5432/axcolekv
-username=axcolekv
-password=GfCzBwdqvrBrfQ7Lfafnt3zjSMLrVOut
