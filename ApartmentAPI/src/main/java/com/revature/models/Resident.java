@@ -9,7 +9,7 @@ public class Resident {
 	
 	public Resident(int iD,String fname,String lname, int aptID) {
 		//id = ++inc;
-		id = iD
+		id = iD;
 		first_name = fname;
 		last_name = lname;
 		apartment_id = aptID;
