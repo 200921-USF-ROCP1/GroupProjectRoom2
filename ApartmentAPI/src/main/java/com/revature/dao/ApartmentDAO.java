@@ -1,5 +1,8 @@
 package com.revature.dao;
 
-public class ApartmentDAO {
+import com.revature.interfaces.CrudInterface;
+import com.revature.models.Apartment;
+
+public class ApartmentDAO implements CrudInterface<Apartment>{
 
 }
