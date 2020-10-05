@@ -1,9 +1,9 @@
 package com.revature.dao;
 
-import com.revature.interfaces.DAOInterface;
+import com.revature.interfaces.DAO;
 import com.revature.models.Resident;
 
-public class ResidentDAO implements DAOInterface<Resident> {
+public class ResidentDAO implements DAO<Resident> {
 
 	public void create(Resident t) {
 		// TODO Auto-generated method stub

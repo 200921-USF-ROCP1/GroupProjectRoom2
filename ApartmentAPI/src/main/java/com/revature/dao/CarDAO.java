@@ -1,9 +1,9 @@
 package com.revature.dao;
 
-import com.revature.interfaces.DAOInterface;
+import com.revature.interfaces.DAO;
 import com.revature.models.Car;
 
-public class CarDAO implements DAOInterface<Car> {
+public class CarDAO implements DAO<Car> {
 
 	public void create(Car t) {
 		// TODO Auto-generated method stub

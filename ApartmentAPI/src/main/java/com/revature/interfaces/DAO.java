@@ -1,6 +1,6 @@
 package com.revature.interfaces;
 
-public interface DAOInterface<T> {
+public interface DAO<T> {
 	
 	//create
 	public void create(T t);
