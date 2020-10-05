@@ -2,11 +2,11 @@ package com.revature.models;
 
 public class Apartment {
 	private int id;
-	private char buildingLetter;
+	private String buildingLetter;
 	private int roomNumber;
 	private double monthlyRent;
 	
-	public Apartment( char buildingLetter, int roomNumber, double MonthlyRent ) {
+	public Apartment( String buildingLetter, int roomNumber, double MonthlyRent ) {
 		this.setBuildingLetter(buildingLetter);
 		this.setRoomNumber(roomNumber);
 		this.setMonthlyRent(monthlyRent);
@@ -15,10 +15,10 @@ public class Apartment {
 	public int getId() {
 		return id;
 	}
-	public char getbuildingLetter() {
+	public String getbuildingLetter() {
 		return buildingLetter;
 	}
-	public void setBuildingLetter(char buildingLetter) {
+	public void setBuildingLetter(String buildingLetter) {
 		this.buildingLetter = buildingLetter;
 	}
 	public int getroomNumber() {

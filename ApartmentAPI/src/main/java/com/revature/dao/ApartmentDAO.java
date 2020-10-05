@@ -20,6 +20,7 @@ public class ApartmentDAO implements DAO<Apartment>{
 	
 	public void create(Apartment t) throws SQLException {
 		ps = connection.prepareStatement("insert into apartments(building_letter,room_number,monthly_rent) values (?,?,?)");
+		ps.setNString(1, t.getbuildingLetter());
 		
 	}
 
