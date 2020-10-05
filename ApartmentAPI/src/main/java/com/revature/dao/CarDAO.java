@@ -1,21 +1,21 @@
 package com.revature.dao;
 
 import com.revature.interfaces.DAOInterface;
-import com.revature.models.Apartment;
+import com.revature.models.Car;
 
-public class ApartmentDAO implements DAOInterface<Apartment>{
+public class CarDAO implements DAOInterface<Car> {
 
-	public void create(Apartment t) {
+	public void create(Car t) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	public Apartment retrieve(int id) {
+	public Car retrieve(int id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	public Apartment update(Apartment t) {
+	public Car update(Car t) {
 		// TODO Auto-generated method stub
 		return null;
 	}
